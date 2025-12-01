@@ -1,0 +1,55 @@
+#version 1.0 2025.03.01
+#
+#conda env create -f pmnec.yml
+#
+#
+#conda update -n base conda
+#conda install -n base conda-libmamba-solver
+#conda config --set solver libmamba
+#
+#
+#conda env update -f pmnec.yml --prune
+#conda remove --name pmnec --all
+#conda env export > "pmnec_real.yml"
+#
+#conda activate pmnec
+#python -m ipykernel install --user --name=pmnec
+
+name: pmnec
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.11
+  - scikit-learn
+  - pyopencl
+  - pandas
+  - pyarrow
+  - matplotlib
+  - optuna
+  - plotly
+  - jupyter
+  - notebook
+  - pymoo
+  - numpy
+  - scipy
+  - statsmodels
+  - pillow
+  - ipykernel
+  - cuda
+  - cudatoolkit
+  - pytorch
+  - pytorch-cuda=11.8
+  - pytorch-forecasting
+  - pytorch-lightning
+  - torchvision
+  - torchaudio
+  - pip
+  - pip:
+    - seaborn
+    - xlwings
+    - openpyxl
+    - wheel
+    - jupyterlab
+    - jupyterlab-code-formatter

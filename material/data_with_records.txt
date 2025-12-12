@@ -1,0 +1,6 @@
+This is some header for some file...
+Name,Score
+Alice,85
+Bob,92
+Charlie,78
+Diana,95

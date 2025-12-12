@@ -1,0 +1,6 @@
+Dear {name},
+
+Thank you for your {action} on {date}. We appreciate your {quality} and look forward to working with you.
+
+Best regards,
+{sender}

@@ -1,0 +1,4 @@
+Message  | Plan: 'Plan 01' (simple.p01)
+Message  | Simulation started at: 12Dec2025 10:50:52 AM
+Message  | 
+Message  | PROCESS:RasProcess
